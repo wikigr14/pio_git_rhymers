@@ -3,7 +3,7 @@ package edu.kis.vh.nursery;
 public class DefaultCountingOutRhymer {
 
     private static final int STACK_CAPACITY = 12;
-    private int[] NUMBERS = new int[STACK_CAPACITY];
+    private final int[] NUMBERS = new int[STACK_CAPACITY];
     private static final int RETURN_VALUE = -1;
 
     private static final int FULL_TOTAL = 11;
