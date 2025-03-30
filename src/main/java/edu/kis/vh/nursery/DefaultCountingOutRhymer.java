@@ -16,16 +16,16 @@ public class DefaultCountingOutRhymer {
 
     private int total = -1;
 
-    public void countIn(int in) {
+    protected void countIn(int in) {
         if (!isFull())
             NUMBERS[++total] = in;
     }
 
-    public boolean callCheck() {
+    protected boolean callCheck() {
         return total == CHECK_TOTAL;
     }
 
-    public boolean isFull() {
+    protected boolean isFull() {
         return total == FULL_TOTAL;
     }
 
@@ -35,7 +35,7 @@ public class DefaultCountingOutRhymer {
         return NUMBERS[total];
     }
 
-    public int countOut() {
+    protected int countOut() {
         if (callCheck())
             return RETURN_VALUE;
         return NUMBERS[total--];
