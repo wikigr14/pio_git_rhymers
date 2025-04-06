@@ -1,5 +1,7 @@
 package edu.kis.vh.nursery.list;
 
+// TODO: Could improve by adding better names instead of just 'i' and 'last'
+
 public class IntLinkedList {
     private static final int RETURN_VALUE = -1;
     Node last;
