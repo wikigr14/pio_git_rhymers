@@ -1,0 +1,24 @@
+# Ignoruj katalog .idea (ustawienia projektu IntelliJ IDEA)
+.idea/
+
+# Ignoruj pliki projektowe IntelliJ (np. iml)
+*.iml
+
+# Katalog wygenerowanych klas, jeśli takowy jest
+out/
+
+# Katalog target (typowy dla projektów Maven/Gradle w Javie)
+target/
+
+# Logi i inne niepotrzebne pliki
+*.log
+
+# Ignoruj wszelkie pliki tymczasowe systemowe
+*.tmp
+*.swp
+*.swo
+
+# (opcjonalnie) Ignoruj pliki konfiguracyjne systemów UNIX/Windows
+.DS_Store
+Thumbs.db
+
